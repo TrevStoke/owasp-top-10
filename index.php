@@ -29,22 +29,13 @@
                 <li><a href="http://trevweb.co.uk/contact">Contact</a></li>
             </ul>
         </nav>
-        <p><img alt="Trevweb - Trevor Adams - Education, Training, Consultancy"
+        <p><a href="/"><img alt="Trevweb - Trevor Adams - Education, Training, Consultancy"
                 src="img/trevweb_transparent_background_web.png"
-                height="54" width="148"></p>
+                height="54" width="148"></a></p>
     </div>
     <div class="jumbotron">
-        <h1>Trevor Adams</h1>
-        <p class="lead">Teacher, developer, director and parent. What shall I do after breakfast?</p>
-        <p>
-            <a title="Personal Blog"
-               href="http://trevweb.me.uk" class="btn btn-lg btn-info">.me.uk</a>
-            <a title="Business Site"
-               href="http://trevweb.co.uk" class="btn btn-lg btn-info">.co.uk</a>
-            <a title="LinkedIn Profile"
-               href="http://uk.linkedin.com/in/trevorjadams/"
-               class="btn btn-lg btn-info">LinkedIn</a>
-        </p>
+        <h1>OWASP Top 10</h1>
+        <p class="lead">A collection of PHP scripts demonstrating the security problems in the <a href="https://www.owasp.org/index.php/Top_10_2013-Top_10">OWASP Top 10 2013</a>.</p>
     </div>
     <footer class="footer">
         <p>&copy; Trevweb <?php echo htmlspecialchars(getdate()['year']); ?></p>
