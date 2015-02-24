@@ -37,6 +37,18 @@
         <h1>OWASP Top 10</h1>
         <p class="lead">A collection of PHP scripts demonstrating the security problems in the <a href="https://www.owasp.org/index.php/Top_10_2013-Top_10">OWASP Top 10 2013</a>.</p>
     </div>
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td><a href="/injection">Injection</a></td>
+            <td>Injection flaws, such as SQL, OS, and LDAP injection occur when untrusted data is sent to an interpreter as part of a command or query. The attacker&apos;s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorisation.</td>
+        </tr>
+        <tr>
+            <td>Another</td>
+            <td>Another description will go here too.</td>
+        </tr>
+        </tbody>
+    </table>
     <footer class="footer">
         <p>&copy; Trevweb <?php echo htmlspecialchars(getdate()['year']); ?></p>
     </footer>
