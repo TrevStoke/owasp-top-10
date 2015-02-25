@@ -6,9 +6,18 @@
  * Time: 23:31
  */
 
-date_default_timezone_set('Europe/London');
-error_reporting(E_ALL);
-echo "SQLite: ";
-echo "<br>";
-echo phpversion();
-phpinfo();
+try
+
+{
+    //open the database
+    $db = new PDO('sqlite:db/owasp2013.sqlite');
+    $result = $db->query('SELECT * FROM products');
+    foreach($result as $row) {
+        print($row['name']) . "<br>";
+    }
+
+    $db = null;
+}
+catch (PDOException $e) {
+    print 'Exception: ' . $e->getMessage();
+}
