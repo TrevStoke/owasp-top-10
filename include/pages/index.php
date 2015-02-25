@@ -30,7 +30,7 @@
         <td>A direct object reference occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, or database key. Without an access control check or other protection, attackers can manipulate these references to access unauthorized data.</td>
     </tr>
     <tr>
-        <td>Security Misconfiguration</td>
+        <td><a href="/security-misconfiguration">Security Misconfiguration</a></td>
         <td>Good security requires having a secure configuration defined and deployed for the application, frameworks, application server, web server, database server, and platform. Secure settings should be defined, implemented, and maintained, as defaults are often insecure. Additionally, software should be kept up to date.</td>
     </tr>
     <tr>
