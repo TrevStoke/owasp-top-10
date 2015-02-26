@@ -50,7 +50,7 @@
         <td>Components, such as libraries, frameworks, and other software modules, almost always run with full privileges. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications using components with known vulnerabilities may undermine application defenses and enable a range of possible attacks and impacts.</td>
     </tr>
     <tr>
-        <td>Unvalidated Forwards and Redirects</td>
+        <td><a href="/unvalidated-forwards-and-redirects">Unvalidated Forwards and Redirects</a></td>
         <td>Web applications frequently redirect and forward users to other pages and websites, and use untrusted data to determine the destination pages. Without proper validation, attackers can redirect victims to phishing or malware sites, or use forwards to access unauthorized pages.</td>
     </tr>
     </tbody>

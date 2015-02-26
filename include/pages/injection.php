@@ -23,7 +23,7 @@
             ?>
         </select>
     </div>
-    <button class="btn btn-info" type="submit" class="btn btn-default">Select Category</button>
+    <button class="btn btn-info" type="submit">Select Category</button>
 </form>
 
 <?php
